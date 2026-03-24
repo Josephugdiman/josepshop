@@ -1,0 +1,27 @@
+MarketMap System - Offline Setup
+===============================
+
+This system is now configured to run offline with an embedded database (SQLite).
+It does not require XAMPP or MySQL to be running.
+
+HOW TO RUN:
+-----------
+1. Double-click the "start_app.bat" file in this folder.
+2. A black window will open (Backend Server). Do not close it.
+3. Your browser will open automatically with the application.
+
+REQUIREMENTS:
+-------------
+- Node.js must be installed on the computer.
+
+DATABASE:
+---------
+The database is stored in "backend/marketplace.db".
+To backup your data, simply copy this file.
+To reset the database, delete this file and restart the system.
+
+TROUBLESHOOTING:
+----------------
+If the app doesn't load:
+1. Ensure no other application is using port 5000 or 5173.
+2. Close the command windows and try "start_app.bat" again.
